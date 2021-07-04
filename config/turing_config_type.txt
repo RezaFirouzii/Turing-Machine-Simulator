@@ -1,0 +1,18 @@
+TuringConfigType {
+    statesCount:   number;
+    finalStates:   number[];
+    alphabets:     char[];
+    tapeAlphabets: char[];
+    transitions:   Transition[];
+}
+
+Transition {
+    currentState: number;
+    word:         string;
+    nextState:    number;
+    replace:      string;
+    direction:    "R" | "L";
+}
+
+
+*** Initial state is always 'q0' ***

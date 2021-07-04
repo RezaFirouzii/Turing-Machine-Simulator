@@ -1,0 +1,219 @@
+{
+  "statesCount": 12,
+  "finalStates": [10],
+  "alphabets": ["0", "1"],
+  "tapeAlphabets": [],
+  "maxAttempts": 1000000,
+  "transitions": [
+    {
+      "currentState": 0,
+      "readChar": "0",
+      "nextState": 5,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 5,
+      "readChar": "0",
+      "nextState": 5,
+      "writeChar": "0",
+      "direction": "R"
+    },
+    {
+      "currentState": 5,
+      "readChar": "1",
+      "nextState": 5,
+      "writeChar": "1",
+      "direction": "R"
+    },
+    {
+      "currentState": 0,
+      "readChar": "1",
+      "nextState": 2,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 2,
+      "readChar": "0",
+      "nextState": 2,
+      "writeChar": "0",
+      "direction": "R"
+    },
+    {
+      "currentState": 2,
+      "readChar": "1",
+      "nextState": 2,
+      "writeChar": "1",
+      "direction": "R"
+    },
+    {
+      "currentState": 5,
+      "readChar": "~",
+      "nextState": 3,
+      "writeChar": "~",
+      "direction": "L"
+    },
+    {
+      "currentState": 3,
+      "readChar": "0",
+      "nextState": 1,
+      "writeChar": "~",
+      "direction": "L"
+    },
+    {
+      "currentState": 2,
+      "readChar": "~",
+      "nextState": 4,
+      "writeChar": "~",
+      "direction": "L"
+    },
+    {
+      "currentState": 4,
+      "readChar": "1",
+      "nextState": 1,
+      "writeChar": "~",
+      "direction": "L"
+    },
+    {
+      "currentState": 1,
+      "readChar": "0",
+      "nextState": 6,
+      "writeChar": "~",
+      "direction": "L"
+    },
+    {
+      "currentState": 6,
+      "readChar": "0",
+      "nextState": 6,
+      "writeChar": "0",
+      "direction": "L"
+    },
+    {
+      "currentState": 6,
+      "readChar": "1",
+      "nextState": 6,
+      "writeChar": "1",
+      "direction": "L"
+    },
+    {
+      "currentState": 1,
+      "readChar": "1",
+      "nextState": 7,
+      "writeChar": "~",
+      "direction": "L"
+    },
+    {
+      "currentState": 7,
+      "readChar": "0",
+      "nextState": 7,
+      "writeChar": "0",
+      "direction": "L"
+    },
+    {
+      "currentState": 7,
+      "readChar": "1",
+      "nextState": 7,
+      "writeChar": "1",
+      "direction": "L"
+    },
+    {
+      "currentState": 6,
+      "readChar": "~",
+      "nextState": 8,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 8,
+      "readChar": "0",
+      "nextState": 0,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 7,
+      "readChar": "~",
+      "nextState": 9,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 9,
+      "readChar": "1",
+      "nextState": 0,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 8,
+      "readChar": "1",
+      "nextState": 11,
+      "writeChar": "1",
+      "direction": "R"
+    },
+    {
+      "currentState": 9,
+      "readChar": "0",
+      "nextState": 11,
+      "writeChar": "0",
+      "direction": "R"
+    },
+    {
+      "currentState": 3,
+      "readChar": "1",
+      "nextState": 11,
+      "writeChar": "1",
+      "direction": "R"
+    },
+    {
+      "currentState": 4,
+      "readChar": "0",
+      "nextState": 11,
+      "writeChar": "0",
+      "direction": "R"
+    },
+    {
+      "currentState": 0,
+      "readChar": "~",
+      "nextState": 10,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 1,
+      "readChar": "~",
+      "nextState": 10,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 3,
+      "readChar": "~",
+      "nextState": 10,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 8,
+      "readChar": "~",
+      "nextState": 10,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 4,
+      "readChar": "~",
+      "nextState": 10,
+      "writeChar": "~",
+      "direction": "R"
+    },
+    {
+      "currentState": 9,
+      "readChar": "~",
+      "nextState": 10,
+      "writeChar": "~",
+      "direction": "R"
+    }
+  ]
+}
